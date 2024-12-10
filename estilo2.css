@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #18191a;
+    background-image: url(imagenes/viagem-de-fundo-abstrato-atraves-do-tempo-e-do-espaco-cartaz-de-neon-futurista-modelo-de-banner-de-musica-moderna-estrelas-desfocadas-iluminam-se-em-linhas_257312-1099.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header {
+    background-color: #270330;
+    color: rgb(240, 100, 20);
+    padding: 10px 0;
+    text-align: center;
+    font-family: fantasy;
+}
+nav {
+    background-color: #2d0238;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav a {
+    color: rgb(240, 100, 20);
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: fantasy;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+aside {
+    width: 20%;
+    background-color: #18191a;
+    padding: 15px;
+    color: #e6e6e6;
+    border: 1px solid rgb(88, 4, 4);
+    background: none;
+}
+article {
+    width: 75%;
+}
+article h2 {
+    color: rgb(240, 100, 20);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer {
+    background-color: #2d0238;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.product {
+    border: 1px solid rgb(88, 4, 4);
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.product p {
+    color: #e6e6e6;
+}
+.product h3 {
+    color: #e6e6e6;
+}
+.product img {
+    width: 100%;
+    max-width: 150px;
+    cursor: pointer;
+}

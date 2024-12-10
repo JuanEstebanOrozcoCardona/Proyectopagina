@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario inicio</title>
+    <link rel="stylesheet" href="Estiloformulario.css">
+</head>
+<body>
+    <h1>Formulario de videojuegos</h1>
+    <form action="ProyectoHtml.html" method="get">
+        <!-- Nombre del jugador -->
+        <label for="nombre">Nombre del jugador:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        <br><br>
+
+        <!-- Edad del jugador -->
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="1" max="100" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="Email">Correo electronico:</label>
+        <input type="email" id="email" name="email" placeholder="Correo@ejemplo.com" required>
+        <br><br>
+
+        <!-- Género favorito-->
+        <label for="genero">Género favorito de videojuegos:</label>
+        <select id="genero" name="genero" required>
+        <option value=""Selecciona uno></option>
+        <option value="accíon">Accíon</option>
+        <option value="Aventura">Aventura</option>
+        <option value="rpg">RPG</option>
+        <option value="deportes">Deportes</option>
+        <option value="Estrategía">Estrategía</option>
+        <option value="otros">Otros</option>
+        </select>
+        <br><br>
+
+        <!-- Plataforma favorita -->
+        <label for="plataforma">Plataforma favorita:</label>
+        <input type="text" id="plataforma" name="plataforma" placeholder="Ej: PlayStation, PC, Xbox" required>
+        <br><br>
+
+        <!-- Videojuego favorito -->
+        <label for="videojuego">Videojuego favorito:</label>
+        <input type="text" id="videojuego" name="videojuego" placeholder="Tu videojuego favorito" required>
+        <br><br>
+
+        <!-- Tiempo promedio de juego -->
+        <label for="tiempo">¿Cuántas horas juegas por semana?</label>
+        <input type="number" id="tiempo" name="tiempo" min="0" placeholder="Horas por semana" required>
+        <br><br>
+
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">
+        <br><br>
+
+        <label for="date">Fecha de nacimiento:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <p>Sexo: <input type="radio" name="mfo" value="h" required>Masculino
+        <input type="radio" name="mfo" value="f">Femenino
+        <input type="radio" name="mfo" value="o">Otro</p>
+        <br><br>
+
+        <!-- Comentarios -->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+    background-color: #221f1f;
+    background-image: url(Imagenes/viagem-de-fundo-abstrato-atraves-do-tempo-e-do-espaco-cartaz-de-neon-futurista-modelo-de-banner-de-musica-moderna-estrelas-desfocadas-iluminam-se-em-linhas_257312-1099.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.descripcion-equipo {
+    padding-left: 10px;
+    text-align: center;
+}
+.descripcion-equipo p {
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: larger;
+}
+.descripcion-equipo img {
+    width: 300px;
+}
+
+h1 {
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-family: Arial;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+
+.link-redes {
+    padding-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.link-redes a {
+    text-decoration: none;
+}
+
+.logo-facebook {
+    height: 50px;
+    width: 60px;
+    padding-right: 20px
+}
+
+.logo-wp {
+    height: 80px;
+    width: 70px;
+
+}
+
+.logo-instagram {
+    height: 50px;
+    width: 80px;
+}
+
+.video-final {
+    padding: 100px 350px;
+    border-radius: 20px;
+}
+
+.contenido-footer {
+    padding: 10px;
+    background-color: rgb(38, 128, 212);
+    margin-top: 125px;
+    background: none;
+}
+
+.parrafo-footer {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.color-equipo {
+    margin-top: 10px
+}
+
+.boton-submit {
+    margin-top: 10px;
+    border: none
+}
+
+.header-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(52, 12, 78);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background: none;
+}
+
+.header-style img {
+    height: 70px;
+    width: 70px;
+    padding: 15px 0 15px 15px;
+}
+
+.lista-header {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-header li {
+    display: inline;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.lista-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista-plantilla {
+    padding-left: 10px;
+}
+
+p, .lista-plantilla li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+
+li a {
+    font-family: Arial;
+}
+
+address {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+
